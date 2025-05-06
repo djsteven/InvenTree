@@ -39,7 +39,7 @@ msgstr "Lista de artículos no válida"
 
 #: InvenTree/api.py:453
 msgid "Filters must be provided as a dict"
-msgstr ""
+msgstr "Los filtros deben proporcionarse como dict"
 
 #: InvenTree/api.py:460
 msgid "Invalid filters provided"
@@ -3840,11 +3840,11 @@ msgstr "Fecha de última actualización de los datos de disponibilidad"
 
 #: company/models.py:1025
 msgid "Supplier Price Break"
-msgstr ""
+msgstr "Descuento para proveedores"
 
 #: company/serializers.py:166
 msgid "Return the string representation for the primary address. This property exists for backwards compatibility."
-msgstr ""
+msgstr "Devuelve la representación en cadena de la dirección principal. Esta propiedad existe por compatibilidad con versiones anteriores."
 
 #: company/serializers.py:185
 msgid "Default currency used for this supplier"
@@ -3864,23 +3864,23 @@ msgstr ""
 
 #: data_exporter/mixins.py:375
 msgid "Data export plugin returned incorrect data format"
-msgstr ""
+msgstr "El plugin de exportación de datos devuelve un formato de datos incorrecto"
 
 #: data_exporter/serializers.py:74
 msgid "Export Format"
-msgstr ""
+msgstr "Exportar Formato"
 
 #: data_exporter/serializers.py:75
 msgid "Select export file format"
-msgstr ""
+msgstr "Seleccionar formato de archivo de exportación"
 
 #: data_exporter/serializers.py:82
 msgid "Export Plugin"
-msgstr ""
+msgstr "Exportar Plugin"
 
 #: data_exporter/serializers.py:83
 msgid "Select export plugin"
-msgstr ""
+msgstr "Seleccione el plugin de exportación"
 
 #: generic/states/fields.py:146
 msgid "Additional status information for this item"
@@ -3896,11 +3896,11 @@ msgstr "Clave"
 
 #: generic/states/serializers.py:26
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
 #: generic/states/serializers.py:37
 msgid "Class"
-msgstr ""
+msgstr "Clase"
 
 #: generic/states/serializers.py:40
 msgid "Values"
@@ -3932,7 +3932,7 @@ msgstr ""
 
 #: importer/models.py:93
 msgid "Import status"
-msgstr ""
+msgstr "Estado de Importación"
 
 #: importer/models.py:103
 msgid "Field Defaults"
@@ -3940,7 +3940,7 @@ msgstr "Valores predeterminados del campo"
 
 #: importer/models.py:110
 msgid "Field Overrides"
-msgstr ""
+msgstr "Anulación de campos"
 
 #: importer/models.py:117
 msgid "Field Filters"
@@ -3956,11 +3956,11 @@ msgstr "La columna ya fue mapeada a un campo de la base de datos"
 
 #: importer/models.py:412
 msgid "Field is already mapped to a data column"
-msgstr ""
+msgstr "El campo ya está asignado a una columna de datos"
 
 #: importer/models.py:421
 msgid "Column mapping must be linked to a valid import session"
-msgstr ""
+msgstr "La asignación de columnas debe estar vinculada a una sesión de importación válida"
 
 #: importer/models.py:426
 msgid "Column does not exist in the data file"
@@ -4084,7 +4084,7 @@ msgstr "El archivo de datos tiene demasiadas filas"
 
 #: importer/validators.py:53
 msgid "Value must be a valid dictionary object"
-msgstr ""
+msgstr "El valor debe ser un objeto de diccionario válido"
 
 #: machine/machine_types/label_printer.py:212
 msgid "Copies"
@@ -4132,7 +4132,7 @@ msgstr "Ubicación de la Impresora"
 
 #: machine/machine_types/label_printer.py:248
 msgid "Scope the printer to a specific location"
-msgstr ""
+msgstr "Alcance de la impresora a una ubicación específica"
 
 #: machine/models.py:25
 msgid "Name of machine"
@@ -4180,7 +4180,7 @@ msgstr "Máquina"
 
 #: machine/models.py:151
 msgid "Machine Config"
-msgstr ""
+msgstr "Configuración de la Máquina"
 
 #: machine/models.py:156
 msgid "Config type"
@@ -4512,7 +4512,7 @@ msgstr "Precio unitario"
 
 #: order/models.py:1647
 msgid "Purchase Order Line Item"
-msgstr ""
+msgstr "Partida de la orden de compra"
 
 #: order/models.py:1671
 msgid "Supplier part must match supplier"
@@ -4544,7 +4544,7 @@ msgstr ""
 
 #: order/models.py:1821
 msgid "Sales Order Line Item"
-msgstr ""
+msgstr "Partida de pedido de cliente"
 
 #: order/models.py:1842
 msgid "Virtual part cannot be assigned to a sales order"
@@ -4572,7 +4572,7 @@ msgstr "Cantidad enviada"
 
 #: order/models.py:1978
 msgid "Sales Order Shipment"
-msgstr ""
+msgstr "Envío de pedidos"
 
 #: order/models.py:2010
 msgid "Date of shipment"
@@ -4630,7 +4630,7 @@ msgstr "El envío no tiene artículos de stock asignados"
 
 #: order/models.py:2157
 msgid "Sales Order Extra Line"
-msgstr ""
+msgstr "Línea extra de Pedido"
 
 #: order/models.py:2186
 msgid "Sales Order Allocation"
